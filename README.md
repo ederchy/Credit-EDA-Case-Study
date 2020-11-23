@@ -8,4 +8,19 @@ It contains two types of scenarios:  The client with payment difficulties: he/sh
 When a client applies for a loan, there are four types of decisions that could be taken by the client/company):  
 Approved: The Company has approved loan Application  Cancelled: The client cancelled the application sometime during approval. Either the client changed her/his mind about the loan or in some cases due to a higher risk of the client he received worse pricing which he did not want.  
 Refused: The company had rejected the loan (because the client does not meet their requirements etc.).  
-Unused offer:  Loan has been cancelled by the client but on different stages of the process.  In this case study, you will use EDA to understand how consumer attributes and loan attributes influence the tendency of default.        
+Unused offer:  Loan has been cancelled by the client but on different stages of the process.  In this case study, you will use EDA to understand how consumer attributes and loan attributes influence the tendency of default. 
+
+
+This dataset has 3 files as explained below: 
+
+ 
+1. 'application_data.csv'  contains all the information of the client at the time of application.
+The data is about whether a client has payment difficulties.
+
+ 
+
+2. 'previous_application.csv' contains information about the client’s previous loan data. It contains the data whether the previous application had been Approved, Cancelled, Refused or Unused offer.
+
+ 
+
+3. 'columns_description.csv' is data dictionary which describes the meaning of the variables.

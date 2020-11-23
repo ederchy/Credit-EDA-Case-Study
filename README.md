@@ -10,8 +10,7 @@ Approved: The Company has approved loan Application  Cancelled: The client cance
 Refused: The company had rejected the loan (because the client does not meet their requirements etc.).  
 Unused offer:  Loan has been cancelled by the client but on different stages of the process.  In this case study, you will use EDA to understand how consumer attributes and loan attributes influence the tendency of default. 
 
-
-This dataset has 3 files as explained below: 
+# This dataset has 3 files as explained below: 
 
  
 1. 'application_data.csv'  contains all the information of the client at the time of application.
@@ -21,6 +20,13 @@ The data is about whether a client has payment difficulties.
 
 2. 'previous_application.csv' contains information about the client’s previous loan data. It contains the data whether the previous application had been Approved, Cancelled, Refused or Unused offer.
 
+# Expectation:
+
+1.Explain the results of univariate, segmented univariate, bivariate analysis, etc. in business terms.
+
+2.Find the top 10 correlation for the Client with payment difficulties and all other cases (Target variable). Note that you have to find the top correlation by segmenting the data frame w.r.t to the target variable and then find the top correlation for each of the segmented data and find if any insight is there.  Say, there are 5+1(target) variables in a dataset: Var1, Var2, Var3, Var4, Var5, Target. And if you have to find top 3 correlation, it can be: Var1 & Var2, Var2 & Var3, Var1 & Var3. Target variable will not feature in this correlation as it is a categorical variable and not a continuous variable which is increasing or decreasing.  
+
+Include visualisations and summarise the most important results in the presentation. You are free to choose the graphs which explain the numerical/categorical variables. Insights should explain why the variable is important for differentiating the clients with payment difficulties with all other cases. 
  
 
 3. 'columns_description.csv' is data dictionary which describes the meaning of the variables.
